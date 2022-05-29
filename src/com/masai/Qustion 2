@@ -1,0 +1,18 @@
+ClassCastException 
+
+ClassCastException:
+ It is the child class of RuntimeException and hence
+  it is an unchecked exception. 
+  This exception is rise automatically
+   by JVM whenever we try to improperly typecast a class from
+    one type to another
+     i.e when we’re trying to typecast parent object to 
+     child type or when we try to typecast an object to a subclass
+      of which it is not an instance.
+
+In the below program we create an object
+ o of type Object and typecasting that object o to a String object s.
+  As we know that Object class is the parent class of all classes 
+  in java and as we’re trying to typecast a parent object to its child type 
+  then ultimately we get java
+.lang.ClassCastException
